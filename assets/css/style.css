@@ -8,11 +8,13 @@
 html, body{
     width: 100vw;
     height: 100vh;
+    overflow-x: hidden;
 }
 
 body{
     width: 300px;
     margin: auto;
+    background-color: #2A9EAD;
 }
 
 .menu{
@@ -21,9 +23,29 @@ body{
     margin-top: 15px;
 }
 a{
-    padding: 5px;
+    padding: 3px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+}
+a:hover{
+    color: darkslategrey;
+    text-decoration: underline;
 }
 
 .inicio{
     display: flex;
+}
+
+.sobre{
+    margin-top: 45px;
+    text-align: center;
+}
+
+.projetos{
+    margin-top: 45px;
+}
+
+.habilidades{
+    margin-top: 45px;
 }
