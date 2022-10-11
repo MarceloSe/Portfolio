@@ -5,7 +5,25 @@
     padding: 0;
 }
 
-html{
+html, body{
     width: 100vw;
     height: 100vh;
+}
+
+body{
+    width: 300px;
+    margin: auto;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+a{
+    padding: 5px;
+}
+
+.inicio{
+    display: flex;
 }
