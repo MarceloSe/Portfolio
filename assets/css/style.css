@@ -47,9 +47,20 @@ a:hover{
 
 .projetos{
     margin-top: 45px;
+    text-align: center;
 }
 
 .habilidades{
     margin-top: 45px;
     font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+.content {
+    display: none;
+}
+
+div {
+    text-align: center;
+    margin: 20px 0 20px 0;
 }
