@@ -14,10 +14,15 @@ html, body{
 }
 
 body{
-    width: 300px;
+    width: 320px;
     margin: auto;
     background-color: #2A9EAD;
     overflow-x: hidden;
+    
+}
+main{
+    width: 300px;
+    margin: auto;
 }
 h1, h2, nav{
     font-family: 'Rajdhani', sans-serif;
@@ -33,14 +38,16 @@ p {
     justify-content: center;
     margin-top: 15px;
 }
+
 a{
     padding: 3px;
     text-decoration: none;
     color: black;
     border-radius: 5px;
 }
-a:hover{
-    color: darkslategrey;
+.menu > a:hover{
+    background-color: #87ECFA;
+    color: black;
     text-decoration: underline;
 }
 
@@ -64,11 +71,12 @@ a:hover{
 }
 
 .content {
-    display: ;
+    display: block;
 }
 .box-content {
     margin: 0 50px 0;
     border-radius: 6px;
+    padding: 2px;
 }
 .box-content:hover{
     background-color: white;
@@ -77,4 +85,16 @@ a:hover{
 div {
     text-align: center;
     margin: 20px 0 20px 0;
+}
+
+footer{
+    width: 320px;
+    text-align: center;
+    margin-top: 45px;
+    border-top: 1px solid black;
+}
+
+footer > p > a:hover{
+    color: white;
+    text-decoration: underline;
 }
