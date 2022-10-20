@@ -11,7 +11,7 @@ effect.addEventListener('onclick', function() {
 }) */
 
 function clickHab() {
-    content.style.display = 'block'
+    conteudo.style.display = 'block'
 }
 
 /* Efeito reveal */ 
