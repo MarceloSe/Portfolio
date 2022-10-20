@@ -2,76 +2,84 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&display=swap');
+
+/* Configurações gerais */
 * {
     margin: 0;
     padding: 0;
 }
-
 html, body{
     width: 100vw;
     height: 100vh;
-    
 }
-
 body{
     width: 320px;
     margin: auto;
     background-color: #2A9EAD;
     overflow-x: hidden;
-    
 }
 main{
     width: 300px;
     margin: auto;
 }
-h1, h2, nav{
+h1, h2, ul{
     font-family: 'Rajdhani', sans-serif;
 }
 p {
     font-family: 'Oswald', sans-serif;
 }
-.h1-init{
-    font-family: 'Oswald', sans-serif;
+
+/* Configuração do Header - Menu e Navegação */
+#burger{
+    cursor: pointer;
+}
+.menu-bar{
+    display: flex;
+    align-items: flex-start;
 }
 .menu{
-    display: flex;
-    justify-content: center;
-    margin-top: 15px;
-}
 
-a{
-    padding: 3px;
-    text-decoration: none;
-    color: black;
-    border-radius: 5px;
+    display: none;
+    justify-content: center;
 }
-.menu > a:hover{
+li{
+    padding: 3px;
+    border-radius: 5px;
+    list-style: none;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.menu > li:hover{
     background-color: #87ECFA;
     color: black;
     text-decoration: underline;
 }
 
+ /* Configuração do corpo - Saudação inicial */
 .inicio{
     display: flex;
 }
+.h1-init{
+    font-family: 'Oswald', sans-serif;
+}
 
+/* Configuração do corpo - Sobre mim*/
 .sobre{
     margin-top: 45px;
     text-align: center;
 }
 
+/* Configuração do corpo - Projetos*/
 .projetos{
     margin-top: 45px;
     text-align: center;
 }
-
+/* Configuração do corpo - Seção Habilidades */
 .habilidades{
     margin-top: 45px;
     text-align: center;
-}
-
-.content {
-    display: block;
 }
 .box-content {
     margin: 0 50px 0;
@@ -82,11 +90,18 @@ a{
     background-color: white;
     transition: 1000ms;
 }
+.effect{
+    cursor: pointer;
+}
+.content {
+    display: none;
+}
 div {
     text-align: center;
     margin: 20px 0 20px 0;
 }
 
+/* Rodapé */
 footer{
     width: 320px;
     text-align: center;

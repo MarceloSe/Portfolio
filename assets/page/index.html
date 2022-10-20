@@ -8,19 +8,22 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/mquery.css">
     <title>Portfólio | Marcelo Sena</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <script src="../js/habilidades-click.js"></script>
+    <script src="../js/menu.js"></script>
 </head>
 <body>
     <header>
-        <nav class="menu">
-            <a href="">Inicio</a>
-            <a href="#sobre">Sobre</a>
-            <a href="">Projetos</a>
-            <a href="">Habilidades</a>
-            <a href="">Redes</a>
-        </nav>
-
-        <img src="" alt="">
+        <div class="menu-bar">
+            <span id="burger" class="material-symbols-outlined" onclick="clickMenu()"> menu </span>
+            <ul id="menu" class="menu" >
+                <li><a href="">Inicio</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="">Projetos</a></li>
+                <li><a href="">Habilidades</a></li>
+                <li><a href="">Redes</a></li>
+            </ul>
+        </div>
     </header>
     <main>
         <section class="inicio">
@@ -37,11 +40,12 @@
         <section class="projetos">
             <h1>Projetos</h1>
         </section>
+
         <section class="habilidades" id="habilidades">
             <h1>Habilidades</h1>
-
+            <p>Clique na Imagem para revelar o conteúdo.</p>
             <div class="box-content">
-                <div class="effect" id="effect">
+                <div class="effect" id="effect" onclick="clickHab()">
                     <img src="../img/html-5.svg" alt="Logo HTML">
                     <img src="../img/css3.svg" alt="Logo CSS">
                 </div>
