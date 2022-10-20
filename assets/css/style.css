@@ -14,9 +14,13 @@ html, body{
 }
 body{
     width: 320px;
+    /*width: 100vw;*/
     margin: auto;
     background-color: #2A9EAD;
     overflow-x: hidden;
+}
+header{
+    margin-top: 35px;
 }
 main{
     width: 300px;
@@ -32,13 +36,18 @@ p {
 /* Configuração do Header - Menu e Navegação */
 #burger{
     cursor: pointer;
+    color: black;
+    border-radius: 2px;
+}
+#burger:hover {
+    background-color: white;
 }
 .menu-bar{
     display: flex;
     align-items: flex-start;
 }
 .menu{
-
+    font-weight: 600;
     display: none;
     justify-content: center;
 }
@@ -52,31 +61,32 @@ a{
     text-decoration: none;
 }
 .menu > li:hover{
-    background-color: #87ECFA;
+    background-color: white;
     color: black;
     text-decoration: underline;
 }
 
  /* Configuração do corpo - Saudação inicial */
-.inicio{
+.saudacao{
     display: flex;
 }
 .h1-init{
     font-family: 'Oswald', sans-serif;
+    display: block;
 }
 
-/* Configuração do corpo - Sobre mim*/
+/* Configuração do corpo - Sobre mim */
 .sobre{
     margin-top: 45px;
     text-align: center;
 }
-
-/* Configuração do corpo - Projetos*/
+ 
+/* Configuração do corpo - Projetos */
 .projetos{
     margin-top: 45px;
     text-align: center;
 }
-/* Configuração do corpo - Seção Habilidades */
+/* Configuração do corpo - Seção Habilidades e efeito */
 .habilidades{
     margin-top: 45px;
     text-align: center;
