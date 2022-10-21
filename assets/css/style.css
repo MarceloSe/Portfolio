@@ -103,7 +103,7 @@ a{
 .effect{
     cursor: pointer;
 }
-.content {
+.conteudo {
     display: none;
 }
 div {
@@ -117,6 +117,7 @@ footer{
     text-align: center;
     margin-top: 45px;
     border-top: 1px solid black;
+    padding: 25px 0 25px 0;
 }
 
 footer > p > a:hover{

@@ -1,18 +1,11 @@
-/* const effect = document.querySelector('#effect');
-const content = document.querySelector('#content');
+const efeito = document.querySelector('#effect');
+const conteudo = document.querySelector('#conteudo');
 
-effect.addEventListener('onclick', function() {
-
-    if (content.style.display === 'block') {
-        content.style.display = 'none';
+efeito.addEventListener('click', function(){
+    if(conteudo.style.display == 'block') {
+        conteudo.style.display = 'none';
     } else {
-        content.style.display = 'block';
+        conteudo.style.display = 'block'
     }
-}) */
-
-function clickHab() {
-    conteudo.style.display = 'block'
-}
-
+})
 /* Efeito reveal */ 
-
