@@ -16,14 +16,15 @@ body{
     /*width: 320px;*/
     width: 100vw;
     margin: auto;
-    background-color: #2A9EAD;
+    background-color: #121212;
+    color: white;
     overflow-x: hidden;
 }
 header{
     margin-top: 35px;
 }
 main{
-    width: 300px;
+    width: 100vw;
     margin: auto;
 }
 h1, h2, ul{
@@ -36,7 +37,7 @@ p {
 /* Configuração do Header - Menu e Navegação */
 #burger{
     cursor: pointer;
-    color: black;
+    color: aqua;
     border-radius: 2px;
     margin-left: 10px;
 }
@@ -99,14 +100,8 @@ a{
     padding: 2px;
 }
 .box-content:hover{
-    background-color: white;
+    background-color: #575757;
     transition: 1000ms;
-}
-.effect{
-    cursor: pointer;
-}
-.conteudo {
-    display: none;
 }
 div {
     text-align: center;

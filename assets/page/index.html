@@ -18,44 +18,33 @@
     <header>
         <div class="menu-bar">
             <span id="burger" class="material-symbols-outlined" onclick="clickMenu()"> menu </span>
-            <ul id="menu" class="menu" >
-                <li><a href="">Inicio</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="">Projetos</a></li>
-                <li><a href="">Habilidades</a></li>
-                <li><a href="">Redes</a></li>
-            </ul>
+            <nav>
+                <ul id="menu" class="menu" >
+                    <li><a href="">Inicio</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="">Projetos</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="">Redes</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
     <main>
         <section class="inicio">
             <h1 class="h1-init">Olá,</h1>
             <div class="saudacao">
-                <img src="" alt="foto de Marcelo Sena">
-                <p>eu me chamo <strong>Marcelo Sena</strong>, e sou desenvolvedor Full-Stack Junior.</p>
+                <p>eu sou <strong>Marcelo Sena</strong>, desenvolvedor Full-Stack Junior.</p>
             </div>
         </section>
         <article class="sobre">
             <h1>Sobre mim</h1>
-            <p>Olá, eu sou o Marcelo, tenho 21 anos de idade e sempre fui apaixonado por tecnologia. Conheci o mundo da programação no ano de 2019, e decidi trilhar esse caminho mais a fundo nesse ano de 2022. Venho adquirindo experiência em Front-end com HTML5, CSS e JavaScript com projetos treino, e meu interesse imediato posteriormente é em React.</p>
+            <img src="" alt="foto de Marcelo Sena">
+            <p>Meu nome é Marcelo, e tenho 21 anos de idade. Sempre fui apaixonado por tecnologia e conheci o mundo da programação no ano de 2019, mas decidi trilhar esse caminho mais a fundo somente nesse ano de 2022. Venho adquirindo experiência em Front-end com HTML5, CSS e JavaScript com projetos treino, e meu interesse imediato posteriormente é em React.</p>
             <p>No Backend venho trabalhando em NodeJS e iniciando na criação de APIs com integração a banco de dados SQL. Também tenho como próximo passo o desenvolvimento Mobile, com React Native.</p>
         </article>
-        <section class="projetos">
-            <h1>Projetos</h1>
-            <h2>Projetos Finalizados</h2>
-                <div>
-
-                </div>
-            <h2>Projetos Treino</h2>
-                <div>
-                    
-                </div>
-        </section>
-
-        <section class="habilidades" id="habilidades">
+        
+        <section class="habilidades" id="habilidades" href="#habilidades">
             <h1>Habilidades</h1>
-            <p>Clique na Imagem para revelar o conteúdo.</p>
-
             <div class="box-content">
                 <div class="effect" id="effect">
                     <img src="../img/html-5.svg" alt="Logo HTML">
@@ -107,6 +96,20 @@
                     <p>Versionamento de Software e hospedagem com Git e GitHub. Criação e clonagem de repositórios e Branches.</p>
                 </div>
             </div>
+        </section>
+
+        <section class="projetos">
+            <h1>Projetos</h1>
+                <div>
+                    <ul>
+                        <li><a href=""><img src="" alt=""></a></li>
+                        <li><a href=""><img src="" alt=""></a></li>
+                        <li><a href=""><img src="" alt=""></a></li>
+                        <li><a href=""><img src="" alt=""></a></li>
+                        <li><a href=""><img src="" alt=""></a></li>
+                        <li><a href=""><img src="" alt=""></a></li>
+                    </ul>
+                </div>
         </section>
     </main>
     <footer class="rodape">
