@@ -8,23 +8,23 @@
     margin: 0;
     padding: 0;
 }
-html, body{
+html{
     width: 100vw;
     height: 100vh;
 }
 body{
     /*width: 320px;*/
-    width: 100vw;
+    width: 97vw;
     margin: auto;
     background-color: #121212;
-    color: white;
+    color: #e7e4e4;
     overflow-x: hidden;
 }
 header{
     margin-top: 35px;
 }
 main{
-    width: 100vw;
+    width: 96vw;
     margin: auto;
 }
 h1, h2, ul{
@@ -59,12 +59,12 @@ li{
     list-style: none;
 }
 a{
-    color: black;
+    color: #e7e4e4;
     text-decoration: none;
 }
 .menu > li:hover{
     background-color: white;
-    color: black;
+    color: #575757;
     text-decoration: underline;
 }
 
@@ -110,7 +110,7 @@ div {
 
 /* Rodapé */
 footer{
-    width: 320px;
+    width: 100vw;
     text-align: center;
     margin-top: 45px;
     border-top: 1px solid black;
