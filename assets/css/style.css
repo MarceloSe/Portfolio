@@ -13,8 +13,8 @@ html, body{
     height: 100vh;
 }
 body{
-    width: 320px;
-    /*width: 100vw;*/
+    /*width: 320px;*/
+    width: 100vw;
     margin: auto;
     background-color: #2A9EAD;
     overflow-x: hidden;
@@ -38,6 +38,7 @@ p {
     cursor: pointer;
     color: black;
     border-radius: 2px;
+    margin-left: 10px;
 }
 #burger:hover {
     background-color: white;
@@ -86,6 +87,7 @@ a{
     margin-top: 45px;
     text-align: center;
 }
+
 /* Configuração do corpo - Seção Habilidades e efeito */
 .habilidades{
     margin-top: 45px;

@@ -1,5 +1,5 @@
 const efeito = document.querySelector('#effect');
-const conteudo = document.querySelector('#conteudo');
+const conteudo =  document.querySelector('#conteudo') 
 
 efeito.addEventListener('click', function(){
     if(conteudo.style.display == 'block') {
@@ -7,5 +7,6 @@ efeito.addEventListener('click', function(){
     } else {
         conteudo.style.display = 'block'
     }
-})
+});
+
 /* Efeito reveal */ 
