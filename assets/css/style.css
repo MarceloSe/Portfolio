@@ -94,6 +94,20 @@ a{
     line-height: 2em;
     font-size: 1.55em;
 }
+.efeito-nome::after {
+    content: '|';
+    margin-left: 2px;
+    opacity: 1;
+    animation: blink .9s infinite;
+}
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
 /* Configuração do corpo - Sobre mim */
 .sobre{
     margin-top: 45px;
