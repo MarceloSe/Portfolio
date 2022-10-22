@@ -76,6 +76,7 @@ a{
  /* Configuração do corpo - Saudação inicial */
  .inicio{
     text-align: center;
+    padding-top: 80px;
  }
  .h1-init{
     margin-top: 60px;
