@@ -21,7 +21,8 @@ body{
     overflow-x: hidden;
 }
 header{
-    margin-top: 35px;
+    position: sticky;
+    top: 0;
 }
 main{
     width: 96vw;
@@ -69,18 +70,29 @@ a{
 }
 
  /* Configuração do corpo - Saudação inicial */
-.saudacao{
-    display: flex;
-}
-.h1-init{
+ .inicio{
+    text-align: center;
+ }
+ .h1-init{
+    margin-top: 80px;
+    font-size: 3.2em;
     font-family: 'Oswald', sans-serif;
     display: block;
 }
-
+.saudacao{
+    display: flex;
+    justify-content: center;
+    font-size: 1.4em;
+}
 /* Configuração do corpo - Sobre mim */
 .sobre{
     margin-top: 45px;
     text-align: center;
+}
+
+.my-picture {
+    border-radius: 5px;
+    margin: 18px 0 18px 0;
 }
  
 /* Configuração do corpo - Projetos */
