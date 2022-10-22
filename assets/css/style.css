@@ -14,18 +14,22 @@ html{
 }
 body{
     /*width: 320px;*/
-    width: 97vw;
+    width: 100vw;
     margin: auto;
-    background-color: #121212;
+    background-color: #202020;
     color: #e7e4e4;
     overflow-x: hidden;
 }
 header{
-    position: sticky;
+    position: fixed;
     top: 0;
+    width: 100vw;
+    border-bottom: 2px solid #333131;
+    background-color: #121212;
+    z-index: 1;
 }
 main{
-    width: 96vw;
+    width: 100vw;
     margin: auto;
 }
 h1, h2, ul{
@@ -38,12 +42,12 @@ p {
 /* Configuração do Header - Menu e Navegação */
 #burger{
     cursor: pointer;
-    color: aqua;
+    color: #333131;
     border-radius: 2px;
-    margin-left: 10px;
+    margin-left: 7px;
 }
 #burger:hover {
-    background-color: white;
+    background-color: #575757;
 }
 .menu-bar{
     display: flex;
@@ -64,7 +68,7 @@ a{
     text-decoration: none;
 }
 .menu > li:hover{
-    background-color: white;
+    background-color: #575757;
     color: #575757;
     text-decoration: underline;
 }
@@ -74,7 +78,7 @@ a{
     text-align: center;
  }
  .h1-init{
-    margin-top: 80px;
+    margin-top: 60px;
     font-size: 3.2em;
     font-family: 'Oswald', sans-serif;
     display: block;
@@ -87,7 +91,9 @@ a{
 /* Configuração do corpo - Sobre mim */
 .sobre{
     margin-top: 45px;
+    padding-top: 80px;
     text-align: center;
+    width: 96vw;
 }
 
 .my-picture {
@@ -103,8 +109,11 @@ a{
 
 /* Configuração do corpo - Seção Habilidades e efeito */
 .habilidades{
-    margin-top: 45px;
+    width: 100vw;
+    margin-top: 50px;
+    padding-top: 80px;
     text-align: center;
+    background-color: #121212;
 }
 .box-content {
     margin: 0 50px 0;
@@ -124,8 +133,9 @@ div {
 footer{
     width: 100vw;
     text-align: center;
+    background-color: #121212;
     margin-top: 45px;
-    border-top: 1px solid black;
+    border-top: 2px solid #333131;
     padding: 25px 0 25px 0;
 }
 
