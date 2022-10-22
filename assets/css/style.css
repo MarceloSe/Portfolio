@@ -114,8 +114,11 @@ a{
 }
 
 .foto-pq {
-    width: 98vw;
+    width: 310px;
     
+}
+.site-projeto {
+    margin-top: 35px;
 }
 
 /* Configuração do corpo - Seção Habilidades e efeito */
