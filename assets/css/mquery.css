@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 400px) and (max-width: 768px) {
+
+/* Configuração do Header - Menu e Navegação */
+body{
+    margin: auto;
+}
+#burger{
+    display: none;
+}
+.menu-bar{
+    justify-content: center;
+}
+.menu{
+    display: flex;
+}
+.logo{
+    right: 30px;
+}
+
+/* Configuração do corpo - Sobre mim */
+
+.sobre{
+    width: 370px;
+    margin: auto;
+}
+
+/* Configuração do corpo - Seção Habilidades e efeito */
+.box-content{
+    width: 370px;
+    margin: auto;
+}
+.conteudo{
+    width: 370px;
+}
+/* Configuração do corpo - Projetos */
+.site-projeto p {
+    width: 370px;
+    margin: auto;
+}
+}
+
+@media screen and (min-width: 769px) and (max-width: 900px) {
+    
+}
+
+@media screen and (min-width: 900px) and (max-width: 1100px) {
+    
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1400) {
+    
+}
+@media screen and (min-width: 1400) {
+    
+}

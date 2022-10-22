@@ -119,29 +119,22 @@ a{
 .my-picture {
     border-radius: 5px;
     margin: 18px 0 18px 0;
+    transition: 0.7s;
 }
- 
-/* Configuração do corpo - Projetos */
-.projetos{
-    margin-top: 45px;
-    text-align: center;
+.my-picture:hover {
+    transform: scale(105%)
 }
-
-.foto-pq {
-    width: 310px;
-    
-}
-.site-projeto {
-    margin-top: 35px;
-}
-
-/* Configuração do corpo - Seção Habilidades e efeito */
+ /* Configuração do corpo - Seção Habilidades e efeito */
 .habilidades{
     width: 100vw;
     margin-top: 50px;
     padding-top: 80px;
+    padding-bottom: 80px;
     text-align: center;
     background-color: #121212;
+}
+.habilidades h1 {
+    padding-bottom: 20px;
 }
 .box-content {
     margin: 0 50px 0;
@@ -155,6 +148,28 @@ a{
 div {
     text-align: center;
     margin: 20px 0 20px 0;
+}
+
+/* Configuração do corpo - Projetos */
+.projetos{
+    margin-top: 45px;
+    text-align: center;
+}
+
+.foto-pq {
+    padding-top: 8px;
+    width: 310px;
+    transition: 0.7s;
+}
+.foto-pq:hover{
+    transform: scale(105%)
+}
+.site-projeto {
+    margin-top: 35px;
+}
+.tecnologia {
+    padding-top: 10px;
+    color: #00CDDA;
 }
 
 /* Rodapé */
