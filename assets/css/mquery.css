@@ -1,52 +1,152 @@
 @charset "UTF-8";
 
+/*Tela de celular*/
 @media screen and (min-width: 400px) and (max-width: 768px) {
 
 /* Configuração do Header - Menu e Navegação */
-body{
-    margin: auto;
-}
-#burger{
-    display: none;
-}
-.menu-bar{
-    justify-content: center;
-}
-.menu{
-    display: flex;
-}
-.logo{
-    right: 30px;
-}
+    body{
+        margin: auto;
+    }
+    #burger{
+        display: none;
+    }
+    .menu-bar{
+        justify-content: center;
+    }
+    .menu{
+        display: flex;
+    }
+    .logo{
+        right: 30px;
+    }
 
 /* Configuração do corpo - Sobre mim */
 
-.sobre{
-    width: 370px;
-    margin: auto;
-}
+    .sobre{
+        width: 370px;
+        margin: auto;
+    }
 
 /* Configuração do corpo - Seção Habilidades e efeito */
-.box-content{
-    width: 370px;
-    margin: auto;
-}
-.conteudo{
-    width: 370px;
-}
+    .box-content{
+        width: 370px;
+        margin: auto;
+    }
+    .conteudo{
+        width: 370px;
+    }
 /* Configuração do corpo - Projetos */
-.site-projeto p {
-    width: 370px;
-    margin: auto;
+    .site-projeto p {
+        width: 370px;
+        margin: auto;
+    }
 }
-}
-
+/* Tela tablet*/
 @media screen and (min-width: 769px) and (max-width: 900px) {
-    
-}
+    body{
+        margin: auto;
+    }
 
+    /* Configuração do Header - Menu e Navegação */
+
+    #burger{
+        display: none;
+    }
+    .menu-bar{
+        justify-content: center;
+    }
+    .menu{
+        display: flex;
+    }
+    .logo{
+        right: 30px;
+    }
+
+    /* Configuração do corpo - Sobre mim */
+
+    .sobre{
+        width: 720px;
+        margin: auto;
+    }
+    /* Configuração do corpo - Seção Habilidades e efeito */
+    .columns{
+        display: flex;
+        flex-flow: row wrap;
+        margin: auto;
+    }
+    .box-content{
+        width: 365px;
+        margin: auto;
+    }
+    .conteudo{
+        width: 100%;
+    }
+    /* Configuração do corpo - Projetos */
+    .site-projeto p {
+        width: 480px;
+        margin: auto;
+    }
+}
+/*Tela tablet/Notebook*/
 @media screen and (min-width: 900px) and (max-width: 1100px) {
-    
+    body{
+        margin: auto;
+    }
+
+    /* Configuração do Header - Menu e Navegação */
+
+    #burger{
+        display: none;
+    }
+    .menu-bar{
+        justify-content: center;
+    }
+    .menu{
+        display: flex;
+    }
+    .logo{
+        right: 30px;
+    }
+    /* Configuração do corpo - Sobre mim */
+
+    .sobre{
+        width: 720px;
+        margin: auto;
+    }
+    /* Configuração do corpo - Seção Habilidades e efeito */
+    .columns{
+        display: flex;
+        flex-flow: row wrap;
+        margin: auto;
+    }
+    .box-content{
+        width: 365px;
+        margin: auto;
+    }
+    .conteudo{
+        width: 100%;
+    }
+    /* Configuração do corpo - Projetos */
+    .projetos{
+        margin: auto;
+        padding-bottom: 80px;
+    }
+    .project-columns{
+        display: flex;
+        flex-flow: row wrap;
+        margin: auto;
+    }
+    .foto-pq{
+        width: 300px;
+    }
+    .site-projeto{
+        width: 50%;
+        margin: auto;
+    }
+    .site-projeto p {
+        width: 350px;
+        margin: auto;
+    }
 }
 
 @media screen and (min-width: 1100px) and (max-width: 1400) {

@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&display=swap');
 
+/*Tela muito pequena*/
 /* Configurações gerais */
 * {
     margin: 0;
@@ -127,7 +128,7 @@ a{
  /* Configuração do corpo - Seção Habilidades e efeito */
 .habilidades{
     width: 100vw;
-    margin-top: 50px;
+    margin-top: 45px;
     padding-top: 80px;
     padding-bottom: 80px;
     text-align: center;
@@ -135,6 +136,7 @@ a{
 }
 .habilidades h1 {
     padding-bottom: 20px;
+    text-align: center;
 }
 .box-content {
     margin: 0 50px 0;
@@ -152,10 +154,11 @@ div {
 
 /* Configuração do corpo - Projetos */
 .projetos{
+    width: 100vw;
     margin-top: 45px;
+    padding-top: 80px;
     text-align: center;
 }
-
 .foto-pq {
     padding-top: 8px;
     width: 310px;
