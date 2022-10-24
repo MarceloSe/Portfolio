@@ -92,7 +92,12 @@
     body{
         margin: auto;
     }
-
+    h1, h2{
+        font-size: 1.8em;
+    }
+    p{
+        font-size: 1.2em;
+    }
     /* Configuração do Header - Menu e Navegação */
 
     #burger{
@@ -114,18 +119,25 @@
         margin: auto;
     }
     /* Configuração do corpo - Seção Habilidades e efeito */
+    .habilidades{
+        margin: auto;
+    }
     .columns{
         display: flex;
         flex-flow: row wrap;
         margin: auto;
     }
     .box-content{
-        width: 365px;
-        margin: auto;
+        width: 50%;
+        padding: 0;
+        border-radius: 6px;
+        margin: 0;
     }
     .conteudo{
-        width: 100%;
+        width: 350px;
+        margin: auto;
     }
+
     /* Configuração do corpo - Projetos */
     .projetos{
         margin: auto;
@@ -141,7 +153,6 @@
     }
     .site-projeto{
         width: 50%;
-        margin: auto;
     }
     .site-projeto p {
         width: 350px;
