@@ -16,9 +16,9 @@ html{
 body{
     /*width: 320px;*/
     width: 100vw;
-    margin: auto;
     background-color: #202020;
     color: #e7e4e4;
+    display: flex;
     overflow-x: hidden;
 }
 header{
@@ -31,7 +31,6 @@ header{
 }
 main{
     width: 100vw;
-    margin: auto;
 }
 h1, h2, ul{
     font-family: 'Rajdhani', sans-serif;
