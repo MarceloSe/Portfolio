@@ -174,12 +174,9 @@ button {
     margin: 0 50px 0;
     border-radius: 6px;
     padding: 2px;
+    background-color: #7a7272;
 }
 
-.box-content:hover {
-    background-color: #575757;
-    transition: 1000ms;
-}
 
 div {
     text-align: center;

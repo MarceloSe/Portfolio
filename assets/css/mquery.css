@@ -143,10 +143,15 @@
     }
 
     .box-content {
-        width: 125px;
+        width: 127px;
         height: 125px;
         margin: 0;
         padding: 2px;
+    }
+
+    .box-content:hover {
+        background-color: #575757;
+        transition: 1000ms;
     }
 
     .conteudo {
@@ -220,10 +225,15 @@
     }
 
     .box-content {
-        width: 125px;
+        width: 127px;
         height: 125px;
         margin: 0;
         padding: 2px;
+    }
+
+    .box-content:hover {
+        background-color: #575757;
+        transition: 1000ms;
     }
 
     .conteudo {
@@ -235,7 +245,6 @@
     }
 
     /* Configuração do corpo - Projetos */
-
     .projetos {
         margin: auto;
         padding-bottom: 80px;
@@ -254,7 +263,7 @@
     .site-projeto {
         width: 50%;
     }
-    
+
     .site-projeto p {
         width: 90%;
         margin: auto;
@@ -264,4 +273,99 @@
 /* Telas Grandes*/
 @media screen and (min-width: 1440px) {
     
+    /* Configuração Geral */
+    h1, h2 {
+        font-size: 1.8em;
+    }
+    
+    p {
+        font-size: 1.2em;
+    }
+    header {
+        font-size: 1.2em;
+    }
+
+    /* Configuração do Header - Menu e Navegação */
+    #burger {
+        display: none;
+    }
+
+    .menu-bar {
+        justify-content: center;
+    }
+
+    .menu {
+        display: flex;
+    }
+
+    .logo {
+        right: 30px;
+    }
+
+    /* Configuração do corpo - Sobre mim */
+    .sobre {
+        width: 78vw;
+        margin: auto;
+    }
+
+    /* Configuração do corpo - Seção Habilidades e efeito */
+    .habilidades-config {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .columns {
+        width: 35vw;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 25px;
+        
+    }
+
+    .box-content {
+        width: 127px;
+        height: 125px;
+        margin: 0;
+        padding: 2px;
+    }
+
+    .box-content:hover {
+        background-color: #575757;
+        transition: 1000ms;
+    }
+
+    .conteudo {
+        display: none;
+    }
+
+    .hiden {
+        padding-right: 16px;
+    }
+
+    /* Configuração do corpo - Projetos */
+    .projetos {
+        margin: auto;
+        padding-bottom: 80px;
+    }
+
+    .project-columns {
+        display: flex;
+        flex-flow: row wrap;
+        margin: auto;
+    }
+    
+    .foto-pq {
+        width: 500px;
+    }
+
+    .site-projeto {
+        width: 50%;
+    }
+
+    .site-projeto p {
+        width: 90%;
+        margin: auto;
+    }
 }
