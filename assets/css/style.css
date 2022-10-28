@@ -18,7 +18,7 @@ body{
     width: 100vw;
     background-color: #202020;
     color: #e7e4e4;
-    display: flex;
+    
     overflow-x: hidden;
 }
 header{
