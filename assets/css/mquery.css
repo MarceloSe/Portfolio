@@ -129,14 +129,16 @@
     /* Configuração do corpo - Seção Habilidades e efeito */
     .columns{
         display: flex;
-        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
         margin: auto;
     }
 
     .box-content{
-        width: 250px;
+        width: 200px;
         height: 200px;
-        margin: auto;
+        margin: 0;
+        padding: 2px;
     }
 
     .conteudo{
