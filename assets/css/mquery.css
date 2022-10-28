@@ -4,36 +4,36 @@
 @media screen and (min-width: 484px) and (max-width: 768px) {
 
 /* Configuração do Header - Menu e Navegação */
-    #burger{
+    #burger {
         display: none;
     }
 
-    .menu-bar{
+    .menu-bar {
         justify-content: center;
     }
 
-    .menu{
+    .menu {
         display: flex;
     }
 
-    .logo{
+    .logo {
         right: 30px;
     }
 
 /* Configuração do corpo - Sobre mim */
 
-    .sobre{
+    .sobre {
         width: 80vw;
         margin: auto;
     }
 
 /* Configuração do corpo - Seção Habilidades e efeito */
-    .box-content{
+    .box-content {
         width: 370px;
         margin: auto;
     }
 
-    .conteudo{
+    .conteudo {
         width: 370px;
     }
 /* Configuração do corpo - Projetos */
@@ -51,42 +51,42 @@
 @media screen and (min-width: 769px) and (max-width: 999px) {
 
     /* Configuração do Header - Menu e Navegação */
-    #burger{
+    #burger {
         display: none;
     }
 
-    .menu-bar{
+    .menu-bar {
         justify-content: center;
     }
 
-    .menu{
+    .menu {
         display: flex;
     }
 
-    .logo{
+    .logo {
         right: 30px;
     }
 
     /* Configuração do corpo - Sobre mim */
 
-    .sobre{
+    .sobre {
         width: 80vw;
         margin: auto;
     }
 
     /* Configuração do corpo - Seção Habilidades e efeito */
-    .columns{
+    .columns {
         display: flex;
         flex-flow: row wrap;
         margin: auto;
     }
 
-    .box-content{
+    .box-content {
         width: 370px;
         margin: auto;
     }
 
-    .conteudo{
+    .conteudo {
         width: 100%;
     }
 
@@ -95,7 +95,8 @@
         width: 70vw;
         margin: auto;
     }
-    .foto-pq{
+
+    .foto-pq {
         width: 500px;
     }
 }
@@ -103,35 +104,36 @@
 @media screen and (min-width: 999px) and (max-width: 1200px) {
 
      /* Configuração do Header - Menu e Navegação */
-     #burger{
+     #burger {
         display: none;
     }
 
-    .menu-bar{
+    .menu-bar {
         justify-content: center;
     }
 
-    .menu{
+    .menu {
         display: flex;
     }
 
-    .logo{
+    .logo {
         right: 30px;
     }
 
     /* Configuração do corpo - Sobre mim */
 
-    .sobre{
+    .sobre {
         width: 80vw;
         margin: auto;
     }
 
     /* Configuração do corpo - Seção Habilidades e efeito */
-    .habilidades-config{
+    .habilidades-config {
         display: flex;
         align-items: center;
     }
-    .columns{
+
+    .columns {
         width: 60vw;
         display: flex;
         justify-content: flex-start;
@@ -140,14 +142,14 @@
         margin: auto;
     }
 
-    .box-content{
+    .box-content {
         width: 125px;
         height: 125px;
         margin: 0;
         padding: 2px;
     }
 
-    .conteudo{
+    .conteudo {
         display: none;
     }
     
@@ -156,9 +158,11 @@
         width: 70vw;
         margin: auto;
     }
-    .foto-pq{
+
+    .foto-pq {
         width: 500px;
     }
+
     .hiden {
         padding-right: 10px;
     }
@@ -168,39 +172,45 @@
 @media screen and (min-width: 1200px) and (max-width: 1439px){
     
     /* Configuração Geral */
-    h1, h2{
+    h1, h2 {
         font-size: 1.8em;
     }
-    p{
+    
+    p {
         font-size: 1.2em;
     }
+
     /* Configuração do Header - Menu e Navegação */
 
-    #burger{
+    #burger {
         display: none;
     }
-    .menu-bar{
+
+    .menu-bar {
         justify-content: center;
     }
-    .menu{
+
+    .menu {
         display: flex;
     }
-    .logo{
+
+    .logo {
         right: 30px;
     }
-    /* Configuração do corpo - Sobre mim */
 
-    .sobre{
+    /* Configuração do corpo - Sobre mim */
+    .sobre {
         width: 85vw;
         margin: auto;
     }
-    /* Configuração do corpo - Seção Habilidades e efeito */
 
-    .habilidades-config{
+    /* Configuração do corpo - Seção Habilidades e efeito */
+    .habilidades-config {
         display: flex;
         align-items: center;
     }
-    .columns{
+
+    .columns {
         width: 50vw;
         display: flex;
         justify-content: flex-start;
@@ -209,37 +219,42 @@
         margin: auto;
     }
 
-    .box-content{
+    .box-content {
         width: 125px;
         height: 125px;
         margin: 0;
         padding: 2px;
     }
 
-    .conteudo{
+    .conteudo {
         display: none;
     }
+
     .hiden {
         padding-right: 16px;
     }
 
     /* Configuração do corpo - Projetos */
 
-    .projetos{
+    .projetos {
         margin: auto;
         padding-bottom: 80px;
     }
-    .project-columns{
+
+    .project-columns {
         display: flex;
         flex-flow: row wrap;
         margin: auto;
     }
-    .foto-pq{
+    
+    .foto-pq {
         width: 500px;
     }
-    .site-projeto{
+
+    .site-projeto {
         width: 50%;
     }
+    
     .site-projeto p {
         width: 90%;
         margin: auto;

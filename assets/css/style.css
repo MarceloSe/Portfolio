@@ -9,11 +9,13 @@
     margin: 0;
     padding: 0;
 }
-html{
+
+html {
     width: 100vw;
     height: 100vh;
 }
-body{
+
+body {
     /*width: 320px;*/
     width: 100vw;
     background-color: #202020;
@@ -21,7 +23,8 @@ body{
     display: block;
     overflow-x: hidden;
 }
-header{
+
+header {
     position: fixed;
     top: 0;
     width: 100vw;
@@ -29,77 +32,91 @@ header{
     background-color: #121212;
     z-index: 1;
 }
-main{
+
+main {
     width: 100vw;
 }
+
 h1, h2, ul{
     font-family: 'Rajdhani', sans-serif;
 }
+
 p {
     font-family: 'Oswald', sans-serif;
 }
 
 /* Configuração do Header - Menu e Navegação */
-#burger{
+#burger {
     cursor: pointer;
     color: #333131;
     border-radius: 2px;
     margin-left: 7px;
 }
+
 #burger:hover {
     background-color: #575757;
 }
-.menu-bar{
+
+.menu-bar {
     display: flex;
 }
-.menu{
+
+.menu {
     font-weight: 600;
     display: none;
     justify-content: center;
 }
-li{
+
+li {
     padding: 3px;
     border-radius: 5px;
     list-style: none;
 }
-a{
+
+a {
     color: #e7e4e4;
     text-decoration: none;
 }
-.menu > li:hover{
+
+.menu > li:hover {
     background-color: #575757;
     color: #575757;
     text-decoration: underline;
 }
-.logo{
+
+.logo {
     position: absolute;
     right: 40px;
 }
 
  /* Configuração do corpo - Saudação inicial */
- .inicio{
+ .inicio {
     text-align: center;
     padding-top: 80px;
  }
- .h1-init{
+
+ .h1-init {
     margin-top: 60px;
     font-size: 3.2em;
     font-family: 'Oswald', sans-serif;
     display: block;
 }
-.saudacao{
+
+.saudacao {
     display: flex;
     justify-content: center;
     padding-top: 35px;
     line-height: 2em;
     font-size: 1.55em;
 }
+
 .efeito-nome::after {
     content: '|';
     margin-left: 2px;
     opacity: 1;
     animation: blink .9s infinite;
 }
+
 @keyframes blink {
     0%, 100% {
         opacity: 1;
@@ -108,16 +125,19 @@ a{
         opacity: 0;
     }
 }
+
 /* Configuração do corpo - Sobre mim */
-.sobre{
+.sobre {
     margin-top: 45px;
     padding-top: 80px;
     text-align: center;
     width: 100vw;
 }
+
 .sobre-mim p {
     width: 96vw;
 }
+
 .my-picture {
     border-radius: 5px;
     margin: 18px 0 18px 0;
@@ -126,8 +146,17 @@ a{
 .my-picture:hover {
     transform: scale(105%)
 }
+
+button {
+    width: 100px;
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+    box-sizing: border-box;
+}
+
  /* Configuração do corpo - Seção Habilidades e efeito */
-.habilidades{
+.habilidades {
     width: 100vw;
     margin-top: 45px;
     padding-top: 80px;
@@ -135,53 +164,62 @@ a{
     text-align: center;
     background-color: #121212;
 }
+
 .habilidades h1 {
     padding-bottom: 20px;
     text-align: center;
 }
+
 .box-content {
     margin: 0 50px 0;
     border-radius: 6px;
     padding: 2px;
 }
-.box-content:hover{
+
+.box-content:hover {
     background-color: #575757;
     transition: 1000ms;
 }
+
 div {
     text-align: center;
     margin: 20px 0 20px 0;
 }
 
 /* Configuração do corpo - Projetos */
-.projetos{
+.projetos {
     width: 100vw;
     margin-top: 45px;
     padding-top: 80px;
     text-align: center;
 }
+
 .foto-pq {
     padding-top: 8px;
     width: 300px;
     transition: 0.7s;
 }
-.foto-pq:hover{
+
+.foto-pq:hover {
     transform: scale(105%)
 }
+
 .site-projeto {
     margin-top: 35px;
 }
+
 .site-projeto p {
     width: 94vw;
     margin: auto;
 }
+
 .tecnologia {
     padding-top: 10px;
     color: #00CDDA;
 }
 
 /* Rodapé */
-footer{
+footer {
     width: 100vw;
     text-align: center;
     background-color: #121212;
@@ -190,7 +228,7 @@ footer{
     padding: 25px 0 25px 0;
 }
 
-footer > p > a:hover{
+footer > p > a:hover {
     color: white;
     text-decoration: underline;
 }
