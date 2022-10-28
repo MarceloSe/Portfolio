@@ -153,14 +153,14 @@ div {
 
 /* Configuração do corpo - Projetos */
 .projetos{
-    width: 100vw;
+    width: 96vw;
     margin-top: 45px;
     padding-top: 80px;
     text-align: center;
 }
 .foto-pq {
     padding-top: 8px;
-    width: 310px;
+    width: 300px;
     transition: 0.7s;
 }
 .foto-pq:hover{
