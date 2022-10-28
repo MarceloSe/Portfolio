@@ -18,7 +18,7 @@ body{
     width: 100vw;
     background-color: #202020;
     color: #e7e4e4;
-    
+    display: block;
     overflow-x: hidden;
 }
 header{
@@ -113,9 +113,11 @@ a{
     margin-top: 45px;
     padding-top: 80px;
     text-align: center;
+    width: 100vw;
+}
+.sobre-mim p {
     width: 96vw;
 }
-
 .my-picture {
     border-radius: 5px;
     margin: 18px 0 18px 0;
@@ -153,7 +155,7 @@ div {
 
 /* Configuração do corpo - Projetos */
 .projetos{
-    width: 96vw;
+    width: 100vw;
     margin-top: 45px;
     padding-top: 80px;
     text-align: center;
@@ -168,6 +170,10 @@ div {
 }
 .site-projeto {
     margin-top: 35px;
+}
+.site-projeto p {
+    width: 94vw;
+    margin: auto;
 }
 .tecnologia {
     padding-top: 10px;
