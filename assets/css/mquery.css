@@ -127,16 +127,22 @@
     }
 
     /* Configuração do corpo - Seção Habilidades e efeito */
+    .habilidades-config{
+        display: flex;
+        align-items: center;
+    }
     .columns{
+        width: 60vw;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+        gap: 25px;
         margin: auto;
     }
 
     .box-content{
-        width: 200px;
-        height: 200px;
+        width: 125px;
+        height: 125px;
         margin: 0;
         padding: 2px;
     }
@@ -144,7 +150,7 @@
     .conteudo{
         display: none;
     }
-
+    
     /* Configuração do corpo - Projetos */
     .site-projeto p {
         width: 70vw;
@@ -156,7 +162,7 @@
 }
 
 /*Tela Notebook*/
-@media screen and (min-width: 1200px) and (max-width: 1439){
+@media screen and (min-width: 1200px) and (max-width: 1439px){
     
     /* Configuração Geral */
     h1, h2{
@@ -186,23 +192,29 @@
         margin: auto;
     }
     /* Configuração do corpo - Seção Habilidades e efeito */
-    .habilidades{
-        margin: auto;
+
+    .habilidades-config{
+        display: flex;
+        align-items: center;
     }
     .columns{
+        width: 50vw;
         display: flex;
-        flex-flow: row wrap;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 25px;
         margin: auto;
     }
+
     .box-content{
-        width: 50%;
-        padding: 0;
-        border-radius: 6px;
+        width: 125px;
+        height: 125px;
         margin: 0;
+        padding: 2px;
     }
+
     .conteudo{
-        width: 350px;
-        margin: auto;
+        display: none;
     }
 
     /* Configuração do corpo - Projetos */
