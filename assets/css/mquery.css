@@ -20,7 +20,7 @@
 /* Configuração do corpo - Sobre mim */
 
     .sobre{
-        width: 370px;
+        width: 80vw;
         margin: auto;
     }
 
@@ -34,8 +34,12 @@
     }
 /* Configuração do corpo - Projetos */
     .site-projeto p {
-        width: 370px;
+        width: 70vw;
         margin: auto;
+    }
+
+    .foto-pq {
+        width: 450px;
     }
 }
 /* Tela tablet*/
