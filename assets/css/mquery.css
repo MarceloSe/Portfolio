@@ -7,12 +7,15 @@
     #burger{
         display: none;
     }
+
     .menu-bar{
         justify-content: center;
     }
+
     .menu{
         display: flex;
     }
+
     .logo{
         right: 30px;
     }
@@ -29,6 +32,7 @@
         width: 370px;
         margin: auto;
     }
+
     .conteudo{
         width: 370px;
     }
@@ -42,8 +46,9 @@
         width: 450px;
     }
 }
+
 /* Tela tablet*/
-@media screen and (min-width: 769px) and (max-width: 992px) {
+@media screen and (min-width: 769px) and (max-width: 999px) {
 
     /* Configuração do Header - Menu e Navegação */
     #burger{
@@ -65,7 +70,7 @@
     /* Configuração do corpo - Sobre mim */
 
     .sobre{
-        width: 720px;
+        width: 80vw;
         margin: auto;
     }
 
@@ -77,7 +82,7 @@
     }
 
     .box-content{
-        width: 365px;
+        width: 370px;
         margin: auto;
     }
 
@@ -87,11 +92,68 @@
 
     /* Configuração do corpo - Projetos */
     .site-projeto p {
-        width: 480px;
+        width: 70vw;
         margin: auto;
     }
+    .foto-pq{
+        width: 500px;
+    }
 }
-/*Tela tablet/Notebook*/
+
+@media screen and (min-width: 999px) and (max-width: 1200px) {
+
+     /* Configuração do Header - Menu e Navegação */
+     #burger{
+        display: none;
+    }
+
+    .menu-bar{
+        justify-content: center;
+    }
+
+    .menu{
+        display: flex;
+    }
+
+    .logo{
+        right: 30px;
+    }
+
+    /* Configuração do corpo - Sobre mim */
+
+    .sobre{
+        width: 80vw;
+        margin: auto;
+    }
+
+    /* Configuração do corpo - Seção Habilidades e efeito */
+    .columns{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .box-content{
+        width: 250px;
+        height: 200px;
+        margin: auto;
+    }
+
+    .conteudo{
+        display: none;
+    }
+
+    /* Configuração do corpo - Projetos */
+    .site-projeto p {
+        width: 70vw;
+        margin: auto;
+    }
+    .foto-pq{
+        width: 500px;
+    }
+}
+
+/*Tela Notebook*/
 @media screen and (min-width: 1200px) and (max-width: 1439){
     
     /* Configuração Geral */
@@ -163,6 +225,7 @@
     }
 }
 
+/* Telas Grandes*/
 @media screen and (min-width: 1440px) {
     
 }
