@@ -134,7 +134,7 @@
     .columns{
         width: 60vw;
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         flex-wrap: wrap;
         gap: 25px;
         margin: auto;
@@ -158,6 +158,9 @@
     }
     .foto-pq{
         width: 500px;
+    }
+    .hiden {
+        padding-right: 10px;
     }
 }
 
@@ -200,7 +203,7 @@
     .columns{
         width: 50vw;
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         flex-wrap: wrap;
         gap: 25px;
         margin: auto;
@@ -216,8 +219,12 @@
     .conteudo{
         display: none;
     }
+    .hiden {
+        padding-right: 16px;
+    }
 
     /* Configuração do corpo - Projetos */
+
     .projetos{
         margin: auto;
         padding-bottom: 80px;
@@ -228,13 +235,13 @@
         margin: auto;
     }
     .foto-pq{
-        width: 300px;
+        width: 500px;
     }
     .site-projeto{
         width: 50%;
     }
     .site-projeto p {
-        width: 350px;
+        width: 90%;
         margin: auto;
     }
 }
