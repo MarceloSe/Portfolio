@@ -147,14 +147,25 @@ a {
     transform: scale(105%)
 }
 
+.botoes{
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+}
+
 button {
     width: 100px;
     height: 35px;
     border-radius: 8px;
     border: none;
     box-sizing: border-box;
+    cursor: pointer;
 }
 
+button:hover {
+    background-color: #7a7272;
+    color: #00CDDA;
+}
  /* Configuração do corpo - Seção Habilidades e efeito */
 .habilidades {
     width: 100vw;
