@@ -1,6 +1,6 @@
 window.sr = ScrollReveal({ reset:true});
 
-ScrollReveal({ distance: '5px'});
+ScrollReveal({ distance: '10px'});
 
 sr.reveal(".sobre", {duration : 2000})
 sr.reveal(".sobre-mim", {duration : 2800})
