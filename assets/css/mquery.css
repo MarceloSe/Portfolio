@@ -28,6 +28,7 @@
     }
 
 /* Configuração do corpo - Seção Habilidades e efeito */
+
     .box-content {
         width: 370px;
         margin: auto;
@@ -166,6 +167,13 @@
     .conteudo {
         display: none;
     }
+
+    .hiden {
+        display: block;
+        padding-right: 10px;
+        max-width: 350px;
+        padding-left: 25px;
+    }
     
     /* Configuração do corpo - Projetos */
     .site-projeto p {
@@ -175,10 +183,6 @@
 
     .foto-pq {
         width: 500px;
-    }
-
-    .hiden {
-        padding-right: 10px;
     }
 }
 
@@ -250,7 +254,10 @@
     }
 
     .hiden {
+        display: block;
         padding-right: 16px;
+        max-width: 350px;
+        padding-left: 65px;
     }
 
     /* Configuração do corpo - Projetos */
@@ -350,10 +357,10 @@
     }
 
     .hiden {
+        display: block;
         padding-right: 16px;
         max-width: 350px;
         padding-left: 65px;
-        font-family: 'Oswald', sans-serif;
     }
 
     /* Configuração do corpo - Projetos */

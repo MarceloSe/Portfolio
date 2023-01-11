@@ -194,6 +194,10 @@ div {
     margin: 20px 0 20px 0;
 }
 
+.hiden {
+    display: none;
+}
+
 /* Configuração do corpo - Projetos */
 .projetos {
     width: 100vw;
