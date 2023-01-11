@@ -41,7 +41,7 @@ h1, h2, ul{
     font-family: 'Rajdhani', sans-serif;
 }
 
-p {
+p, .hiden {
     font-family: 'Oswald', sans-serif;
 }
 

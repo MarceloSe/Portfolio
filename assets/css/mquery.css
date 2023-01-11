@@ -36,6 +36,11 @@
     .conteudo {
         width: 370px;
     }
+
+    .hiden {
+        display: none;
+    }
+
 /* Configuração do corpo - Projetos */
     .site-projeto p {
         width: 70vw;
@@ -88,6 +93,10 @@
 
     .conteudo {
         width: 100%;
+    }
+
+    .hiden {
+        display: none;
     }
 
     /* Configuração do corpo - Projetos */
@@ -278,7 +287,7 @@
         font-size: 1.8em;
     }
     
-    p {
+    p, .hiden {
         font-size: 1.2em;
     }
     header {
@@ -342,6 +351,9 @@
 
     .hiden {
         padding-right: 16px;
+        max-width: 350px;
+        padding-left: 65px;
+        font-family: 'Oswald', sans-serif;
     }
 
     /* Configuração do corpo - Projetos */
