@@ -31,7 +31,9 @@
 
     .box-content {
         width: 370px;
+        height: 234px;
         margin: auto;
+        margin-top: 2px;
     }
 
     .conteudo {
@@ -89,7 +91,9 @@
 
     .box-content {
         width: 370px;
+        height: 234px;
         margin: auto;
+        margin-top: 2px;
     }
 
     .conteudo {
