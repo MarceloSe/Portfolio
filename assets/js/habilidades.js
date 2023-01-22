@@ -1,13 +1,13 @@
 const skills = document.querySelectorAll('.box-content');
 const descricao = document.querySelector('.hiden');
 const sobreSkill = [
-                    '<p>HTML</p> <br> <p>Linguagem de marcação de hipertexto e Folhas de estilo, para criação de sites e layouts com acessibilidade e responsividade, juntamente com otimização para motores de busca.</p> <br>',
-                    '<p>CSS</p> <br> <p>Linguagem de marcação de hipertexto e Folhas de estilo, para criação de sites e layouts com acessibilidade e responsividade, juntamente com otimização para motores de busca.</p> <br>',
+                    '<p>HTML</p> <br> <p>Linguagem de marcação de hipertexto, para criação de sites, layouts e toda a estrutura principal do conteúdo na Web.</p> <br>',
+                    '<p>CSS</p> <br> <p>Folhas de estilo, para incrementar a criação de sites dando o aparato visual ao estilo, cores e tamanhos gerais.</p> <br>',
                     '<p>JavaScript</p> <br> <p>Interação com usuário por intermédio do JavaScript, com efeitos e animações através da manipulação do DOM.</p> <br>',
-                    '<p>NodeJS</p> <br> <p>Utilização do software NodeJS para criação do Backend, e também as APIs para integração a bancos de dados.</p> <br>',
-                    '<p>MySQL</p> <br> <p>Criação de tabelas para armazenamento de dados, e integração com Backend</p> <br>',
-                    '<p>Git</p> <br> <p>Versionamento de Software e hospedagem com Git e GitHub. Criação e clonagem de repositórios e utilização de Branches.</p> <br>',
-                    '<p>Github</p> <br> <p>Versionamento de Software e hospedagem com Git e GitHub. Criação e clonagem de repositórios e utilização de Branches.</p> <br>'
+                    '<p>NodeJS</p> <br> <p>Utilização do software NodeJS para criação do Backend, com as APIs e integração a bancos de dados.</p> <br>',
+                    '<p>MySQL</p> <br> <p>Criação de tabelas para armazenamento de dados, e integração com Backend.</p> <br>',
+                    '<p>Git</p> <br> <p>Versionamento de Software e controle sobre atualizações com Git.</p> <br>',
+                    '<p>Github</p> <br> <p>Hospedagem, criação de projetos, clonagem de repositórios e utilização de Branches com o GitHub.</p> <br>'
 ]
 const dataInicio = [
                     (new Date(2021, 10, 1)).getTime(), // 0
