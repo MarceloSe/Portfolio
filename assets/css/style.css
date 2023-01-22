@@ -154,18 +154,44 @@ a {
 }
 
 button {
-    width: 100px;
-    height: 35px;
+    width: 130px;
+    height: 45px;
     border-radius: 8px;
     border: none;
     box-sizing: border-box;
     cursor: pointer;
+    background-color: #7a7272;
+    font-family: 'Oswald', sans-serif;
+    font-size: 12pt;
+    font-weight: 500;
+    transition: .8s;
 }
 
 button:hover {
-    background-color: #7a7272;
+    background-color: #575757;
     color: #00CDDA;
 }
+
+.linkedin-button {
+    border-bottom: 3px solid red;
+}
+
+.github-button{
+    border-top: 3px solid #00CDDA;
+}
+
+.linkedin-button:hover{
+    border-bottom: none;
+    border-top: 3px solid #00CDDA;
+    color: rgb(255, 0, 0);
+}
+
+.github-button:hover{
+    border-top: none;
+    border-bottom: 3px solid red;
+    color: #00CDDA;
+}
+
  /* Configuração do corpo - Seção Habilidades e efeito */
 .habilidades {
     width: 100vw;

@@ -328,6 +328,10 @@
         margin: auto;
     }
 
+    /* .linkedin-button {
+        border-bottom: 2px solid red;
+    } */
+
     /* Configuração do corpo - Seção Habilidades e efeito */
     .habilidades-config {
         display: flex;
