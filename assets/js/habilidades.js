@@ -5,6 +5,7 @@ const sobreSkill = [
                     '<p>CSS</p> <br> <p>Folhas de estilo, para incrementar a criação de sites dando o aparato visual ao estilo, cores e tamanhos gerais.</p> <br>',
                     '<p>JavaScript</p> <br> <p>Interação com usuário por intermédio do JavaScript, com efeitos e animações através da manipulação do DOM.</p> <br>',
                     '<p>NodeJS</p> <br> <p>Utilização do software NodeJS para criação do Backend, com as APIs e integração a bancos de dados.</p> <br>',
+                    '<p>ReactJS</p> <br> <p>Biblioteca Front-End com base em Javascript, para criação de interfaces de usuário em páginas Web.</p> <br>',
                     '<p>MySQL</p> <br> <p>Criação de tabelas para armazenamento de dados, e integração com Backend.</p> <br>',
                     '<p>Git</p> <br> <p>Versionamento de Software e controle sobre atualizações com Git.</p> <br>',
                     '<p>Github</p> <br> <p>Hospedagem, criação de projetos, clonagem de repositórios e utilização de Branches com o GitHub.</p> <br>'
